@@ -1,0 +1,62 @@
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Python cache/compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+
+# Database files
+*.db
+*.sqlite3
+*.sqlite
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Alembic (if using DB migrations)
+# Usually you DO want to track migration files, so don't ignore the folder itself
+# but you can ignore generated cache if any
+
+# Mypy / type checker cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Local config overrides
+*.local
